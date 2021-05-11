@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android='http://schemas.android.com/apk/res/android'
+    xmlns:app='http://schemas.android.com/apk/res-auto'
+    xmlns:tools='http://schemas.android.com/tools'
+    android:layout_width='match_parent'
+    android:layout_height='match_parent'
+    tools:context='.MainActivity'
+    android:orientation='vertical'
+    android:layout_gravity='center'
+    android:background='#fff'>
+
+
+    <TextView
+        android:id="@+id/messageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Message Text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/messageFormat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Message Formate"
+        android:layout_below="@id/messageText"
+        android:textSize="20sp" />
+
+    <Button
+    android:layout_width='250dp'
+    android:layout_height='wrap_content'
+    android:id='@+id/scan'
+    android:padding='4dp'
+    android:layout_marginTop='20sp'
+    android:layout_gravity='center'
+    android:text='@string/scanner'
+    android:textSize='19sp'
+    android:textStyle='bold'
+        android:layout_below="@id/messageFormat"
+    android:textColor='#ffffff' />
+</LinearLayout>

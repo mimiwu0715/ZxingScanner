@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ZxingScanner</string>
+    <string name="scanner">Scanner</string>
+    <string name="qr_code">QR Code</string>
+</resources>
